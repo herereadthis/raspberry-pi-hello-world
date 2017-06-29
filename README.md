@@ -5,19 +5,19 @@
 
 ```bash
 # Build the Docker image
-docker build -t helloworld1
+docker build -t rpihello
 
 # Run it
-docker run helloworld
+docker run rpihello
 
 # Login
 docker login
 
 # Tag the image
-docker tag helloworld1 herereadthis/rasberry-pi-hello-world:part1
+docker tag rpihello herereadthis/rasberry-pi-hello-world:latest
 
 # Publish the image
-docker push herereadthis/raspberry-pi-hello-world:part1
+docker push herereadthis/raspberry-pi-hello-world:latest
 
 
 ```
